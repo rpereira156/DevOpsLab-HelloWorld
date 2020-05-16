@@ -20,5 +20,5 @@ script:
 deploy:
   provider: heroku
   api-key: 
-    secure: 2d5f7b93-6734-4bda-98d4-5427585abeb6
+    secure: travis encrypt 2d5f7b93-6734-4bda-98d4-5427585abeb6 --add deploy.api_key --org
   app: devopslabs-rpereira156
