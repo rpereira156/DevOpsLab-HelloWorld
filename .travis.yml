@@ -20,5 +20,5 @@ script:
 deploy:
   provider: heroku
   api-key: 
-    secure: 2d5f7b93-6734-4bda-98d4-5427585abeb6
+    secure: $APIKEY 
   app: devopslabs-rpereira156
